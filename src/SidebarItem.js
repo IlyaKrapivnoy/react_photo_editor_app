@@ -1,9 +1,9 @@
 import React from 'react'
 
-const SidebarItem = () => {
+const SidebarItem = ({ name }) => {
     return (
         <button className="sidebar-item">
-            Sidebar Item
+           { name }
         </button>
     )
 }
